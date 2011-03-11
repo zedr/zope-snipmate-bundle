@@ -19,7 +19,7 @@ What is snipMate?
 
 What is zope-snipmate-bundle?
     This is a bundle of 'snipMate compatible' snippets generated from
-    Witsch's excellent Zope snippets for TextMate.
+    Tom Lazar and Witsch's excellent Zope snippets for TextMate.
     See: https://github.com/tomster/zope.tmbundle
 
 What is provided by this bundle?
@@ -63,4 +63,4 @@ zedr (Rigel Di Scala) <zedr@zedr.com>
 
 Credits
 -------
-- Witsch for his TextMate snippets
+- Tom Lazar and Witsch for their TextMate snippets
