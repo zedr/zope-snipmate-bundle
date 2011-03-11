@@ -1,0 +1,18 @@
+# restructuredtext-doctest-zope snippets for snipMate.
+# Created by ./tm2snip.py @ 2011-03-11 10:15:40.980041
+
+# tryblock
+snippet try tryblock
+	try:
+	...     $0${TM_CURRENT_LINE/^[>\s]*//}
+	... except:
+	...     traceback = self.portal.error_log.getLogEntries()[0]['tb_text']
+	...     print traceback
+	...     import pdb; pdb.set_trace( )
+	>>> # original line: 
+
+# indentedcode
+snippet > indentedcode
+	
+	  >>> 
+

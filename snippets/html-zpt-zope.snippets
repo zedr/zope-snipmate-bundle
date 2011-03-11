@@ -1,0 +1,65 @@
+# html-zpt-zope snippets for snipMate.
+# Created by ./tm2snip.py @ 2011-03-11 10:15:40.980041
+
+# 
+snippet taldslot 
+	<metal:${1:tag} define-slot="${2:name}">
+		${0:$TM_SELECTED_TEXT}
+	</metal:$1>
+	
+
+# 
+snippet talb 
+	<tal:${1:block} $0>
+		$0
+	</tal:$1>
+
+# 
+snippet talcom 
+	<tal:${1:comment} tal:condition="nothing">
+		$0
+	</tal:$1>
+	
+
+# i18n
+snippet i18n i18n
+	i18n:${1:translate}="${2}"${3}
+
+# 
+snippet talr 
+	tal:replace="${1:python:}$0"
+
+# NewPage
+snippet page NewPage
+	<html xmlns="http://www.w3.org/1999/xhtml"
+	      xml:lang="en-US" lang="en-US"
+	      xmlns:tal="http://xml.zope.org/namespaces/tal"
+	      xmlns:metal="http://xml.zope.org/namespaces/metal"
+	      xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+	      i18n:domain="${1:plone}">
+	
+	    <body>
+	        $0
+	    </body>
+	</html>
+	
+
+# 
+snippet talo 
+	tal:omit-tag="${1:}$0"
+
+# 
+snippet taldm 
+	<metal:block define-macro="${1:name}">
+		${0:$TM_SELECTED_TEXT}
+	</metal:block>
+	
+
+# 
+snippet talre 
+	tal:repeat="${1:item} ${2:view/attribute}"$0
+
+# 
+snippet talc 
+	tal:content="${1:python:}$0"
+

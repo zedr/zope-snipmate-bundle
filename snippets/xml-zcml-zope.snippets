@@ -1,0 +1,200 @@
+# xml-zcml-zope snippets for snipMate.
+# Created by ./tm2snip.py @ 2011-03-11 10:15:40.980041
+
+# configure
+snippet <configure configure
+	<configure
+	    xmlns:${1:zope}="http://namespaces.zope.org/zope"
+	    xmlns:${2:browser}="http://namespaces.zope.org/browser">
+	  ${3}
+	</configure>
+	
+
+# GenericSetupupgradestepgroup
+snippet <upgradeg GenericSetupupgradestepgroup
+	<genericsetup:upgradeSteps
+	    source="$1"
+	    destination="$2"
+	    sortkey="$3"
+	    profile="$4">
+	  <genericsetup:upgradeStep
+	      title="$5"
+	      description="$6"
+	      handler="$7"
+	      />
+	</genericsetup:upgradeSteps>
+	
+
+# Class
+snippet <class Class
+	<${1}class class="${2}">
+	  ${3:<${4}allow
+	      ${5:attributes="${6}"}
+	      ${7:interface="${8}"}/>}
+	  ${9:<${10}factory
+	      ${11:id="${12}"}
+	      ${13:title="${14}"}
+	      ${15:description="${16}"}/>}
+	  ${17:<${18}implements 
+	      ${19:interface="${20}"} />}
+	  ${21}
+	</class>
+
+# GenericSetupexportstep
+snippet <export GenericSetupexportstep
+	<genericsetup:exportStep
+	    name="$1"
+	    title="$2"
+	    ${3:description="$4"}
+	    handler="$5"
+	    />
+	
+
+# Require
+snippet <require Require
+	${1:<${2}require
+	    ${3:attributes="${4}"}
+	    ${5:interface="${6}"}
+	    ${7:set_attributes="${8}"}
+	    ${9:set_schema="${10}"}
+	    ${11:like_class="${12}"}
+	    ${13:permission="${14}"}
+	    />}
+
+# Adapter
+snippet <adapter Adapter
+	<${1}adapter
+	    ${2:factory = "${3}"}
+	    ${4:for = "${5}"}
+	    ${6:provides = "${7}"}
+	    ${8:name = "${9}"}
+	    ${10:permission = "${11}"}
+	    ${12:trusted = "${13}"}
+	    ${14:locate = "${15}"}
+	    />
+
+# Utility
+snippet <utility Utility
+	<${1}utility
+	    ${2:component="${3}"}
+	    ${4:factory="${5}"}
+	    ${6:provides="${7}"}
+	    ${8:name="${9}"}
+	    ${10:permission="${11}"}
+	    />
+
+# factory
+snippet < factory
+	<${1}factory
+	    component="${2}"
+	    ${3:description="${4}"}
+	    ${5:id="${6}"}
+	    ${7:title="${8}"}
+	    />
+	
+
+# permission
+snippet <permission permission
+	<${1}zope:permission
+	    ${2:id="${3}"}
+	    ${4:title="${5}"}
+	    />
+
+# AddMenuItem
+snippet <addMenuItem AddMenuItem
+	<${1}addMenuItem
+	    ${2:title="${3}"}
+	    ${4:description="${5}"}
+	    ${6:for="${7}"}
+	    ${8:factory="${9}"}
+	    ${10:view="${11}"}
+	    ${12:class="${13}"}
+	    ${14:permission="${15}"}
+	    ${16:order="${17}"}
+	    ${18:filter="${19}"}
+	    ${20:layer="${21}"}
+	    ${22:icon="${23}"}
+	    ${24:menu="${25}"}
+	    />
+
+# GenericSetupupgradestep
+snippet <upgrade GenericSetupupgradestep
+	<genericsetup:upgradeStep
+	    title="$1"
+	    description="$2"
+	    source="$3"
+	    destination="$4"
+	    handler="$5"
+	    sortkey="$6"
+	    profile="$7"
+	    />
+	
+
+# Interface
+snippet <interface Interface
+	<${1}interface
+	    ${2:interface="${3}"}
+	    ${4:type="${5}"}
+	    ${6:name="${7}"}
+	    />
+
+# GenericSetupimportstep
+snippet <import GenericSetupimportstep
+	<genericsetup:importStep
+	    name="$1"
+	    title="$2"
+	    ${3:description="$4"}
+	    handler="$5">
+	  ${7:<depends name="$8"/>}
+	</genericsetup:importStep>
+	
+
+# grant
+snippet <grant grant
+	<${1}zope:grant
+	    ${2:permission="${3}"}
+	    ${4:role="${5}"}
+	    />
+
+# Include
+snippet <include Include
+	<$1include 
+	    ${2:package="${3}"}
+	    ${4:file="${5}"}
+	    />
+	
+
+# Viewlet
+snippet <viewlet Viewlet
+	<${1}viewlet
+	    ${2:name="${3}"}
+	    ${4:for="${5}"}
+	    ${6:manager="${7}"}
+	    ${8:template="${9}"}
+	    ${10:layer="${11}"}
+	    ${12:permission="${13}"}
+	    />
+
+# role
+snippet <role role
+	<${1}zope:role
+	    ${2:id="${3}"}
+	    ${4:title="${5}"}
+	    />
+
+# Implements
+snippet <implements Implements
+	<$1implements interface="$2"/>
+
+# page
+snippet < page
+	<${1}page
+	    ${2:for="${3}"}
+	    ${4:class="${5}"}
+	    ${6:layer="${7}"}
+	    permission="${8}"
+	    ${9:allowed_interface="${10}"}
+	    ${11:allowed_attributes="${12}"}
+	    />
+	
+
