@@ -23,7 +23,7 @@ What is zope-snipmate-bundle?
     See: https://github.com/tomster/zope.tmbundle
 
 What is provided by this bundle?
-    * Snippets
+    * snipMate snippets for TAL, ZCML and common Zope and Plone code blocks.
     * A conversion script
 
 Where can I get updated versions of this bundle?
