@@ -40,7 +40,7 @@ Installation
 * Copy the snippets in your $HOME/.vim/snippets/ directory
 * Add the following lines in your $HOME/.vimrc:
     ::
-    """ Zope Stuff
+
     au BufNewFile,BufRead *.pt set filetype=html.pt
     au BufNewFile,BufRead *.zcml set filetype=xml.zcml
 
@@ -54,6 +54,7 @@ Conversion script
     in a directory and convert them to snipMate's format.
 
     Run with::
+
         ./tm2snip.py <TextMate snips directory> <Target directory>
 
 Maintainer
