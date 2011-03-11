@@ -147,7 +147,7 @@ class SnipWriter(object):
         str_nodes = doc.getElementsByTagName('string')
         if not (key_nodes and str_nodes):
             sys.stdout.write(
-                "WARN: '%s' has invalid snippet information. \n" % fname +
+                "WARN: '%s' has invalid snippet information. " % fname +
                 "Skipping... \n"
             )
             return
