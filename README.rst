@@ -9,7 +9,7 @@ a more enjoyable and smooth experience... hopefully.
 Introduction
 ------------
 What is Zope?
-    Zope is a free and open-source object-oriente Python framework.
+    Zope is a free and open-source object-oriented Python framework.
     See: http://www.zope.org
 
 What is snipMate?
