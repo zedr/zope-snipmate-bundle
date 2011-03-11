@@ -1,7 +1,8 @@
 Zope support for Vim's snipMate plugin
 ======================================
 
-Tired of typing in endless bolierplate code when writing Zope applications?
+Tired of typing in endless boilerplate code when writing Zope applications?
+
 This bundle will ease the pain in your fingertips and make development in Vim
 a more enjoyable and smooth experience... hopefully.
 
