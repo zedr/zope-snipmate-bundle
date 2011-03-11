@@ -38,8 +38,7 @@ Requirements
 Installation
 ------------
 * Copy the snippets in your $HOME/.vim/snippets/ directory
-* Add the following lines in your $HOME/.vimrc:
-    ::
+* Add the following lines in your $HOME/.vimrc::
 
     au BufNewFile,BufRead *.pt set filetype=html.pt
     au BufNewFile,BufRead *.zcml set filetype=xml.zcml
