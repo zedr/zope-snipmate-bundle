@@ -47,7 +47,7 @@ Installation
 Usage
 -----
 Snippets
-    See snipMate's homepage.
+    See snipMate's homepage, or this screencast: http://vimeo.com/3535418
 
 Conversion script
     This conversion script will read all TextMate compatible snippets
