@@ -133,8 +133,6 @@ class SnipWriter(object):
                 ...
             </dict>
 
-        The number of items must be equal to five, else None is returned.
-
         """
         fname = fpath.split(os.sep)[-1]
         try:
