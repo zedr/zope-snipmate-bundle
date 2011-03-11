@@ -34,7 +34,7 @@ Requirements
 ------------
 * Vim
 * snipMate plugin
-* Python >2.6
+* Python >=2.6
 
 Installation
 ------------
