@@ -133,8 +133,6 @@ class SnipWriter(object):
                 ...
             </dict>
 
-        The number of items must be equal to five, else None is returned.
-
         """
         fname = fpath.split(os.sep)[-1]
         try:
@@ -149,7 +147,7 @@ class SnipWriter(object):
         str_nodes = doc.getElementsByTagName('string')
         if not (key_nodes and str_nodes):
             sys.stdout.write(
-                "WARN: '%s' has invalid snippet information. \n" % fname +
+                "WARN: '%s' has invalid snippet information. " % fname +
                 "Skipping... \n"
             )
             return

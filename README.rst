@@ -1,14 +1,15 @@
 Zope support for Vim's snipMate plugin
 ======================================
 
-Tired of typing in endless bolierplate code when writing Zope applications?
+Tired of typing in endless boilerplate code when writing Zope applications?
+
 This bundle will ease the pain in your fingertips and make development in Vim
 a more enjoyable and smooth experience... hopefully.
 
 Introduction
 ------------
 What is Zope?
-    Zope is a free and open-source object-oriente Python framework.
+    Zope is a free and open-source object-oriented Python framework.
     See: http://www.zope.org
 
 What is snipMate?
@@ -18,11 +19,11 @@ What is snipMate?
 
 What is zope-snipmate-bundle?
     This is a bundle of 'snipMate compatible' snippets generated from
-    Witsch's excellent Zope snippets for TextMate.
+    Tom Lazar and Witsch's excellent Zope snippets for TextMate.
     See: https://github.com/tomster/zope.tmbundle
 
 What is provided by this bundle?
-    * Snippets
+    * snipMate snippets for TAL, ZCML and common Zope and Plone code blocks.
     * A conversion script
 
 Where can I get updated versions of this bundle?
@@ -33,7 +34,7 @@ Requirements
 ------------
 * Vim
 * snipMate plugin
-* Python >2.6
+* Python >=2.6
 
 Installation
 ------------
@@ -46,7 +47,7 @@ Installation
 Usage
 -----
 Snippets
-    See snipMate's homepage.
+    See snipMate's homepage, or this screencast: http://vimeo.com/3535418
 
 Conversion script
     This conversion script will read all TextMate compatible snippets
@@ -62,4 +63,4 @@ zedr (Rigel Di Scala) <zedr@zedr.com>
 
 Credits
 -------
-- Witsch for his TextMate snippets
+- Tom Lazar and Witsch for their TextMate snippets
