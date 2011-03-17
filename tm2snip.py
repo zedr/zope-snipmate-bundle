@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 
 '''
 File: tm2snip.py
@@ -19,7 +19,7 @@ from xml.dom import minidom
 from xml.parsers.expat import ExpatError
 
 class SnipWriter(object):
-    """SnipWriter Class
+    """ SnipWriter Class
     """
 
     def __init__(self, domain='zope'):
